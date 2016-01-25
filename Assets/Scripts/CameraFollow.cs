@@ -22,7 +22,7 @@ public class CameraFollow : MonoBehaviour {
 		Playertemp.y = camTemp.y;
 
 		float dist = Vector3.Distance(Playertemp,camTemp);
-		Debug.Log(dist);
+		//Debug.Log(dist);
 
 	}
 }
