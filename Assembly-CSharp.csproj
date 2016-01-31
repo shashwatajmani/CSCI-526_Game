@@ -45,12 +45,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\BillboardUI.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\DebugInfo.cs" />
      <Compile Include="Assets\Scripts\Fruit.cs" />
+     <Compile Include="Assets\Scripts\LevelSelectTouchManager.cs" />
+     <Compile Include="Assets\Scripts\LevelSelect_Level.cs" />
      <Compile Include="Assets\Scripts\LevelUIManager.cs" />
+     <Compile Include="Assets\Scripts\MainMenuManager.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\SampleLevelSelectCollider.cs" />
      <Compile Include="Assets\Scripts\VirtualJoyStick.cs" />
      <Compile Include="Assets\Scripts\roatateAround.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
