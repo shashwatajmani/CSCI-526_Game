@@ -11,6 +11,18 @@ public class MainMenuManager : MonoBehaviour {
 		Application.LoadLevel(LevelSelectScene);
 
 	}
+	public void SettingsPressed()
+	{
+		Debug.Log("Settings Pressed");
+
+		//Application.LoadLevel(LevelSelectScene);
+
+	}
+	public void AboutPressed()
+	{
+		Debug.Log("About Pressed");
+		//Application.LoadLevel(LevelSelectScene);
+	}
 	// Use this for initialization
 	void Start () {
 	

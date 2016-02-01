@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour {
 	void Update () {
 
 
-		m_rigidbody.angularVelocity = Vector3.zero;
+		//m_rigidbody.angularVelocity = Vector3.zero;
 		moveVector.x = movement_joystick.getHorizontal();
 		moveVector.z = movement_joystick.getVertical();
 
@@ -41,7 +41,7 @@ public class PlayerMovement : MonoBehaviour {
 
 			transform.forward = newMoveVector;
 
-			m_rigidbody.velocity = newMoveVector*5;
+			m_rigidbody.velocity = new Vector3(newMoveVector.x*5,m_rigidbody.velocity.y,newMoveVector.z*5);
 		
 
 

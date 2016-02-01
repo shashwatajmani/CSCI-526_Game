@@ -58,7 +58,6 @@ public class roatateAround : MonoBehaviour {
 			transform.RotateAround(target.transform.position, localXAxis, joystick.getVertical() *50 * Time.deltaTime);
 
 
-
 			rotatingX = true;
 			rotatingY = false;
 
