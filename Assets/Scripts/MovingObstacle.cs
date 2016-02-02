@@ -3,6 +3,7 @@ using System.Collections;
 
 public class MovingObstacle : MonoBehaviour {
 
+	public GameObject m_mainParent;
 	// Use this for initialization
 	void Start () {
 	
@@ -13,25 +14,25 @@ public class MovingObstacle : MonoBehaviour {
 	
 	}
 
-	void OnCollisionEnter(Collision collision) 
+	void OnTriggerEnter(Collider other) 
 	{		
 
 		//Debug.Log(collision.gameObject.tag);
-		if(collision.gameObject.tag == "Player")
+		if(other.gameObject.tag == "Player")
 		{
 			Debug.Log("Collided with player!");
-			collision.gameObject.transform.parent = gameObject.transform.parent;
+			other.gameObject.transform.parent = m_mainParent.transform;
 
 		}
 	}
-	void OnCollisionExit(Collision collision) 
+	void OnTriggerExit(Collider other) 
 	{		
 
 		//Debug.Log(collision.gameObject.tag);
-		if(collision.gameObject.tag == "Player")
+		if(other.gameObject.tag == "Player")
 		{
 			Debug.Log("Exit Collided with player!");
-			collision.gameObject.transform.parent = null;
+			other.gameObject.transform.parent = null;
 		}
 	}
 }
