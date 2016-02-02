@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BillboardUI.cs" />
+     <Compile Include="Assets\Scripts\CamMovement.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\DebugInfo.cs" />
      <Compile Include="Assets\Scripts\Fruit.cs" />
