@@ -3,6 +3,16 @@ using System.Collections;
 
 public class LevelSelectTouchManager : MonoBehaviour {
 
+
+	public string backBtnScene;
+
+
+	public void BackPressed()
+	{
+		Application.LoadLevel(backBtnScene);
+
+	}
+
 	// Use this for initialization
 	void Start () {
 	
