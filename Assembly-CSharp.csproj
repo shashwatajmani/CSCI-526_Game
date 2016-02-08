@@ -49,6 +49,8 @@
      <Compile Include="Assets\Scripts\CamMovement.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\DebugInfo.cs" />
+     <Compile Include="Assets\Scripts\Enemy\FollowPlayerTest.cs" />
+     <Compile Include="Assets\Scripts\Enemy\InRangeTest.cs" />
      <Compile Include="Assets\Scripts\Fruit.cs" />
      <Compile Include="Assets\Scripts\LevelSelectTouchManager.cs" />
      <Compile Include="Assets\Scripts\LevelSelect_Level.cs" />
