@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\LevelUIManager.cs" />
      <Compile Include="Assets\Scripts\MainMenuManager.cs" />
      <Compile Include="Assets\Scripts\MovingObstacle.cs" />
+     <Compile Include="Assets\Scripts\MovingPlatform.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\VirtualJoyStick.cs" />
      <Compile Include="Assets\Scripts\roatateAround.cs" />
